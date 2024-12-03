@@ -1,0 +1,120 @@
+/* Загальні стилі */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #f4f4f9;
+    color: #333;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Хедер */
+  .header {
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header h1 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #000;
+  }
+  
+  .nav a {
+    margin: 0 10px;
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .nav .button {
+    background: #fbb034;
+    padding: 10px 15px;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  
+  /* Основний блок */
+  .main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+    background: #fff;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .content {
+    max-width: 50%;
+  }
+  
+  .content h2 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #000;
+  }
+  
+  .content h2 span {
+    color: #fbb034;
+  }
+  
+  .content p {
+    margin: 20px 0;
+    font-size: 16px;
+  }
+  
+  .buttons .btn {
+    background: #4a90e2;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 10px;
+    font-weight: 600;
+  }
+  
+  .buttons .btn-secondary {
+    background: #fff;
+    color: #4a90e2;
+    border: 2px solid #4a90e2;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  /* Зображення */
+  .image img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  /* Футер */
+  .footer {
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+    background: #333;
+    color: #fff;
+  }
+  
+  .footer a {
+    color: #fbb034;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
